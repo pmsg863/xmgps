@@ -25,7 +25,12 @@ public class DeployForm {
         deployButton.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                SQLModelManager.deploy();
+                boolean deploy = SQLModelManager.deploy();
+                if ( deploy )
+                    JOptionPane.showMessageDialog(null, "successful", "warning", JOptionPane.INFORMATION_MESSAGE);
+                else
+                    JOptionPane.showMessageDialog(null, "failure", "error", JOptionPane.INFORMATION_MESSAGE);
+
                 super.mouseClicked(e);
             }
         });
