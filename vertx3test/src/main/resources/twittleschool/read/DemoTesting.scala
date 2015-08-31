@@ -1,4 +1,4 @@
-package com.xmgps.yfzx.hwb.scala
+package twittleschool.read
 
 /*
  Demo:   A lightweight unit-testing framework.
@@ -67,7 +67,7 @@ object Check {
 
 
 
-import Check._
+import twittleschool.read.Check._
 
 
 /**

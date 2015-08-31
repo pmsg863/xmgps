@@ -1,4 +1,4 @@
-package com.xmgps.yfzx.hwb.scala
+package twittleschool.read
 
 /*
  Demo:     Interacting with Java classes, and creating Scala classes.

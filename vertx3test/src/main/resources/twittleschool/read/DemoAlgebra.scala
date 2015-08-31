@@ -1,4 +1,4 @@
-package com.xmgps.yfzx.hwb.scala
+package twittleschool.read
 
 /*
  Demo:   Solving algebraic equations with custom patterns.
