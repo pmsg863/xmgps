@@ -1,0 +1,230 @@
+/* CSS Document */
+
+.bk{
+    width:100%;
+	height:800px;
+	background:#CCCCCC;
+}
+.package_a{
+    width:170px;
+	height:300px;
+	border:1px #ccc solid;
+	float:left;
+	background:#FFFFFF;
+	margin-left:5px;
+	border-radius:20px;
+	text-align:center;
+	margin-top:120px;
+	color:#777;
+}
+.package_a_title{
+    width:100%;
+	height:60px;
+	font-size:20px;
+	color:#0099CC;
+	font-weight:bold;
+	line-height:60px;
+	border-bottom:#ccc 1px solid;
+	float:left;
+}
+.package_a_price{
+    width:100%;;
+	height:50px;
+	font-size:16px;
+	line-height:25px;
+	background:#eee;
+	border-bottom:#ccc 1px solid;
+	padding:5px 0px;
+	float:left;
+}
+
+.package_a_men{
+    width:100%;
+	height:50px;
+	font-size:18px;
+	line-height:25px;
+	border-bottom:#ccc 1px solid;
+	float:left;
+	padding:5px 0px;
+}
+.package_a_num{
+    width:100%;
+	height:40px;
+	font-size:16px;
+	line-height:40px;
+	border-bottom:#ccc 1px solid;
+	float:left;
+}
+.package_a_dname_1{
+    width:100%;
+	height:40px;
+	font-size:16px;
+	line-height:40px;
+	border-bottom:#ccc 1px solid;
+	float:left;
+}
+.package_a_dname_2{
+    width:100%;
+	height:40px;
+	font-size:16px;
+    line-height:40px;
+	border-bottom:#ccc 1px solid;
+	float:left;
+}
+.package_a_speed{
+    width:100%;
+	height:40px;
+	font-size:16px;
+	line-height:40px;
+	border-bottom:#ccc 1px solid;
+	float:left;
+}
+.package_a_button{
+    width:100%;
+	height:60px;
+	font-size:14px;
+	line-height:40px;
+	float:left;
+}
+.package_a_button_1{
+    width:80%;
+	height:40px;
+	margin:auto;
+	border:1px #CCCCCC solid;
+	border-radius:23px;
+	margin-top:15px;
+	cursor:pointer;
+}
+.package_a_button_1_left{
+    width:50%;
+	height:40px;
+	float:left;
+	margin-left:-2px;
+}
+.package_a_button_1_right{
+    width:50%;
+	height:40px;
+	border-radius:23px;
+	background:#0099CC;
+	border:1px #CCCCCC solid;
+	float:left;
+	margin-top:-1px;
+	color:#FFFFFF;
+}
+.user_list{
+    width:auto;
+	height:50px;
+	font-family:"微软雅黑";
+	float:right;
+}
+
+.user_list_name{
+    width:150px;
+	height:49px;
+	float:left;
+	
+}
+.user_list_name_selected{
+	background-color:#000000;
+}
+#downSelect{
+	display:none;
+	border-top:1px solid #C6DAEA;
+}
+.user_list_name_text{
+    width:120px;
+	height:49px;
+	line-height:49px;
+	font-size:20px;
+	font-weight:500;
+	float:right;
+	text-align:center;
+	color:#fff;
+}
+.user_list_name_icon{
+    width:30px;
+	height:49px;
+	float:right;
+	background:url(../images/arrow_up.png) center no-repeat;
+}
+.user_list_name_icon_ex{
+    width:30px;
+	height:79px;
+	float:left;
+	background:url(../images/arrow_down.png) center no-repeat;
+}
+.user_list_button1{
+    width:99px;
+	height:80px;
+	border-right:1px solid #C6DAEA;
+	float:left;
+	cursor:pointer;
+}
+.user_list_button1_1{
+    width:99px;
+	height:60px;
+	background:url(../images/fixcod.png) center no-repeat;
+}
+.user_list_button1_2{
+    width:99px;
+	height:20px;
+	text-align:center;
+	line-height:10px;
+	line-height:5px;
+	color:#2c86c2;
+	font-size:12px;
+}
+.user_list_button2{
+    width:100px;
+	height:80px;
+	float:left;
+	cursor:pointer;
+}
+.user_list_button2_1{
+    width:100px;
+	height:60px;
+	background:url(../images/logout.png) center no-repeat;
+}
+.user_list_button2_1:hover{
+	background:url(../images/logout_hover.png) center no-repeat;
+}
+.user_list_button2_2{
+    width:100px;
+	height:20px;
+	text-align:center;
+	line-height:5px;
+	color:#2c86c2;
+	font-size:12px;
+}
+.user_list_button2_2:hover{
+	color:#44b4e0;
+}
+.user_info_operate_list_absolult{
+	position: absolute;
+	background-color: #000000;
+	color: #ffffff;
+	width: 150px;
+	text-align: center;
+	line-height: 40px;
+	min-height:170px;/* ���� */
+    _height:200px;/* ���� */
+    -webkit-opacity:0.8; /* Moz + FF ͸���20%*/
+    opacity: 0.8; /* ֧��CSS3�������FF 1.5Ҳ֧�֣�͸���20%*/
+    z-index:1;
+    right:0;
+}
+.user_info_operate_list_absolult div{
+	cursor:pointer;
+}
+.header_remind_img{
+	margin-top: 13px;
+	margin-right: 10px;
+	cursor:pointer;
+}
+.remind_img_num_absolute{
+	position: absolute;
+	font-size: 12px;
+	color: #ffffff;
+	margin-top: 12px;
+	margin-left: 16px;
+}

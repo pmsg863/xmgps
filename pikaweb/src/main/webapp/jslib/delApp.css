@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+
+.delApp_border_1{
+    height: 62px;
+    line-height: 62px;
+    text-align: left;
+    
+    color:#86837A;
+}
+.delApp_border_1 span{
+	font-size:22px;
+}
+.delApp_border_2{
+	border: 1px solid #CCCCCC;
+    height: 62px;
+    line-height: 62px;
+    padding-left: 15px;
+    text-align: left;
+    color:#86837A;
+}
+.delApp_border_2 span{
+	font-size:22px;
+}
+
+.delApp_delService_border{
+	border: 1px solid #CCCCCC;
+    line-height: 62px;
+    margin-top: 50px;
+    width:100%;
+    float:left;
+}
+
+.delApp_description{
+	color: #666666;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 30px;
+    padding-left: 15px;
+}
+
+
+.delApp_backimage{
+	background:url("../images/mopaas_pice/dustbin2.png") no-repeat scroll 0 0 transparent;
+	width:30px;
+	height:30px;
+	float:left;
+	margin-top: 15px;
+}
+
+.delApp_backimage2{
+	background:url("../images/mopaas_pice/dustbin.png") no-repeat scroll 0 0 transparent;
+	width:30px;
+	height:30px;
+	float:left;
+	margin-top: 15px;
+	margin-left:15px;
+}

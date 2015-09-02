@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+
+.code_upload{
+	background: none repeat scroll 0 0 #2c86c2;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    font-size: 21px;
+    height: 50px;
+    line-height:50px;
+    width: 242px;
+}
+.code_upload_icon{
+	background:url("../images/cod_upload.png;") center no-repeat;
+	width:50px;
+	height:50px;
+	float:left;
+}
+.code_download_icon{
+	background:url("../images/cod_download.png;") center no-repeat;
+	width:35px;
+	height:35px;
+	float:left;
+}
+.code_upload:hover{
+	background:#39A4EA;
+}
+.code_name{
+	float:left;
+	font-size:17px;
+	color:#74696E;
+	margin-left:8px;
+}
+
+.code_download{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-right: 2px;
+	line-height:26px;
+	background: none repeat scroll 0 0 #2c86c2;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: right;
+    font-size: 15px;
+    height:30px;
+    line-height:30px;
+    width: 145px;
+    padding-left: 17px;
+}
+.code_download:hover{
+	background:#39A4EA;
+}
+.code_description{
+	background: none repeat scroll 0 0 #FFFFCB;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    color: #666666;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 10px;
+    margin:20px;
+}
+
+.code_line{
+	background: none repeat scroll 0 0 #CCCCCC;
+    height: 1px;
+    margin: 5px auto 3px;
+}
+
+.code_anotherUpload a{
+	color:#59A1D7;
+	font-size:18px;
+	margin-left:12px;
+	cursor:pointer;
+	line-height: 30px;
+	font-weight: bold;
+}
+/* create by jchen start*/
+#git{float:left;width:100%;height:280px;}
+.code_manager{float:left;width:100%;height:42px;margin-top:10px;margin-left: 8px;}
+.code_manager2{float:left;width:100%;height:30px;margin-top:10px;}
+.code_left_frame{font-size:16px;float:left;border-radius:5px;border: 1px solid #999;width:45px; height:40px;text-align:center;line-height:42px; color:#666;margin-left:18px;}
+.code_line_name{float:left;margin-left:20px;font-size:16px;color:#666;width:210px;height:42px;text-align:center;line-height:42px;font-size:22px;}
+.code_line_name2{float:left;margin-left:20px;font-size:16px;color:#666;width:auto;height:42px;text-align:left;line-height:42px;color:#666;}
+.code_line_name3{float:left;margin-left:5px;font-size:16px;color:#666;width:600px;height:42px;text-align:left;line-height:42px;color:#666;}
+.code_git_upload{background: none repeat scroll 0 0 #2c86c2;color: #FFFFFF;cursor: pointer;float:right;font-size: 15px; height:30px;line-height:30px;
+margin-top: 2px;
+margin-bottom: 2px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+margin-right: 2px;
+}
+.gitInputInfo{float:left;width:100%;height:30px;margin-top:10px;}
+.gitsuccess{float:left;height:210px;margin-left:15px;margin-top:10px;}
+#logcode{overflow-y:auto;overflow-x: hidden;}
+
+
+

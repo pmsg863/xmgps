@@ -1,0 +1,343 @@
+@charset "utf-8";
+/*我的应用 */
+.addapplication_button img{
+	width:42px;
+	height:42px;
+	margin: 19px 20px 9px 5px;
+	float:left;
+}
+.addapplication_button span{
+	background: url("../images/mopaas_pice/add.png") no-repeat scroll 0 0 transparent;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    color: #3AA6E9;
+    cursor: pointer;
+    font-weight: normal;
+}
+.appinfo_1_1icon img{
+	height: 50px;
+	width: 50px;
+}
+.gif_pic_1{
+	text-align:center;
+}
+.mainlist{
+width:100%;
+background:#FFFFFF;
+float:left;
+min-height:500px;
+}
+.appinfo_1 {
+}
+.appinfo_1_1icon {
+float: left;
+height: 50px;
+margin: 5px 15px 5px 20px;
+width: 50px;
+}
+.appinfo_1_1 {
+	font-size: 16px;
+    font-weight: bold;
+    margin-top:10px;
+}
+.appinfo_1_1 a{
+	color:#666;
+}
+.appinfo_1_1 a:hover{
+	color:#00b5f0;
+}
+.appinfo_1_2 {
+	color: #2C86C2;
+    cursor: pointer;
+    font-size: 14px;
+}
+.appinfo_1_4 {
+	text-align:center;
+}
+.appinfo_1_3 {
+	text-align:center;
+}
+.appinfo_1_3_red {
+height: 28px;
+background: url(../images/mopaas_pice/breakout.png) center no-repeat;
+cursor:pointer;
+}
+.appinfo_1_3_green{
+height: 28px;
+background:url(../images/mopaas_pice/startup.png) center no-repeat;
+cursor:pointer;
+}
+.addapplication_button {
+font-size: 30px;
+font-weight: bold;
+color: #666666;
+margin:50px auto 0;
+text-align: center;
+}
+.appinfo {
+width: 96%;
+margin:0 auto;
+margin-top:40px;
+margin-bottom: 50px;
+}
+.appinfo table{
+	width: 100%;
+}
+.appinfo table th{
+	border-bottom:1px solid #DDDDDD;
+	height:45px;
+	font-weight:bold;
+	font-size:18px;
+}
+.appinfo table td{
+	border-bottom:1px solid #DDDDDD;
+	color:#666666;
+}
+.appinfo table td.default_empty{
+	border-bottom:0px solid #DDDDDD;
+}
+.appContent {
+}
+/*我的服务*/
+.serviceContent {
+}
+.serinfo_1_0 {
+	text-align:center;
+}
+.serinfo_1_0 img{
+	width:50px;
+	height:50px;
+	margin: 10px 0;
+}
+.serinfo_1_1 {
+	color: #666666;
+    float: left;
+    font-size: 16px;
+    font-weight: bolder;
+    width: 200px;
+}
+.serinfo_1_2 {
+    font-size: 14px;
+}
+.serinfo_1_4 {
+	text-align:center;
+}
+.managemen_ser_info_box_capacity {
+width: 132px;
+margin:0 auto;
+}
+.managemen_ser_info_box_capacity_div {
+	float: left;
+	height: 20px;
+	width: 200px;
+	line-height: 20px;
+	margin-top: 10px;
+}
+#serviceContent .managemen_ser_info_box_capacity_in span {
+position: absolute;
+float: left;
+width: 106px;
+font-size: 10px;
+padding: 0 5px;
+z-index: 10;
+height: 20px;
+line-height: 20px;
+}
+/* .managemen_ser_info_box_sp {
+width: 90px;
+height: 30px;
+color: #FFFFFF;
+float: left;
+background: url('../images/mopaas_pice/removeService.png') no-repeat;
+cursor: pointer;
+border: #FFFFFF 1px solid;
+line-height: 30px;
+margin-top: 14px;
+margin-left: 10px;
+padding-left:30px;
+} */
+.managemen_ser_info_box_capacity_in {
+background: #e4e4e4;
+display: inline-block;
+width: 120px;
+position: relative;
+height: 20px;
+}
+/*应用商城*/
+.shopinfo_1 {
+border: 1px solid #EEEEEE;
+    color: #666666;
+    float: left;
+    font-size: 14px;
+    padding: 30px 0;
+    width: 48.5%;
+}
+.shopinfo_1_logo {
+height: 90px;
+width: 90px;
+/*background: url(../images/mopaas_pice/WEIGUAN.png);*/
+float: left;
+margin: 15px 15px 0px 15px;
+border-radius: 15px;
+}
+.shopinfo_1_right {
+height: 105px;
+width: 270px;
+float: left;
+}
+.shopinfo_1_right_title {
+width: 250px;
+height: 40px;
+line-height: 50px;
+font-size: 20px;
+font-weight: bold;
+color: #3ca5e6;
+}
+.shopinfo_1_right_info {
+width: 250px;
+height: 20px;
+line-height: 20px;
+font-size: 14px;
+font-weight: 500;
+}
+.shopinfo_1_right_button {
+width: 162px;
+height: 40px;
+line-height: 40px;
+text-align: center;
+font-size: 14px;
+color: #FFFFFF;
+float: right;
+font-weight: 700;
+margin-top:70px;
+margin-right:10px;
+background: url('../images/mopaas_pice/blueandgreen.png') no-repeat;
+}
+.shopinfo_1_right_button_2 {
+width: 80px;
+height: 40px;
+float: right;
+cursor: pointer;
+}
+.shopinfo_1_right_button_1 {
+width: 80px;
+height: 40px;
+float: right;
+cursor: pointer;
+}
+.shopinfo_1_right_info_1 {
+width: 180px;
+height: 24px;
+line-height: 20px;
+font-size: 12px;
+margin-right: 15px;
+}
+.shopinfo_1_right_info_2{
+width:auto;
+height:20px;
+line-height:20px;
+font-size:14px;
+}
+/*创建应用*/
+.create_content {
+width: 100%;
+float: left;
+}
+.create_content_illustration{
+	  color: #A1A1A1;
+    float: left;
+    font-size: 28px;
+    font-weight: 700;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 13px;
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+}
+.create_content_1 {
+width: 96%;
+float: left;
+margin: 0px 20px 20px 20px;
+padding-bottom: 20px;
+border-bottom: solid 1px #a1a1a1;
+}
+.create_content_2 {
+width: 96%;
+float: left;
+margin: 20px 20px 30px;
+}
+.create_content_box {
+width: 108px;
+height: 105px;
+float: left;
+margin-top: 20px;
+margin-left: 37px;
+margin-right: 39px;
+margin-bottom: -1px;
+line-height: 100px;
+text-align: center;
+font-size: 14px;
+color: #666666;
+background: #ffffff;
+cursor: pointer;
+border: 2px solid #fff;
+border-radius:3px;
+padding-top:15px;
+}
+.create_content_box:hover {
+border: 2px solid #56afe9;
+}
+.create_content_url_left {
+width: 60%;
+height: 100%;
+float: left;
+font-size: 14px;
+color: #666666;
+margin-left: 50px;
+}
+.create_content_url_left_1 {
+width: 300px;
+float: left;
+}
+.create_content_url_left_1 input{
+	width: 300px;
+	height: 25px;
+}
+.create_content_url_left_2 {
+	color: #A1A1A1;
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 10px;
+    margin-top: 2px;
+    width: 200px;
+}
+
+.managemen_ser_pic {
+height: 70px;
+width:106px;
+}
+.create_content_box_ser_bk {
+width:108px;
+height: 70px;
+float: left;
+background: #fff;
+}
+.managemen_ser_word {
+float: left;
+font-size: 14px;
+height: 30px;
+line-height: 30px;
+text-align: center;
+width:108px;
+}
+
+.manageApp_switch_off{
+	background: url(../images/mopaas_pice/breakout.png) center no-repeat;
+}
+.manageApp_switch_on{
+	background: url(../images/mopaas_pice/startup.png) center no-repeat;
+}

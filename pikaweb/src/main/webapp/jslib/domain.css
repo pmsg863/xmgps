@@ -1,0 +1,159 @@
+.managemen_domain{
+	font:normal 12px "微软雅黑";
+	margin:0 auto;
+}
+
+button{
+margin-top: 2px;
+margin-bottom: 2px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+margin-right: 2px;
+}
+
+.managemen_domain_intr {
+    background: none repeat scroll 0 0 #FFFFCB;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    color: #666666;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 10px;
+}
+.managemen_domain h3{
+	font-size:16px;
+	margin-left:10px;
+	font-weight:normal;
+}
+.managemen_domain table{
+	border: 1px solid #D7D7D7;
+	padding:10px;
+	width:100%;
+}
+.managemen_domain table th{
+	text-align:left;
+}
+.managemen_domain table td{
+	rgb(124, 122, 122);
+}
+.managemen_domain .firtd{
+	color:#666666;
+}
+a{
+	text-decoration:none;
+}
+.btn{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-right: 2px;
+    background:#2C86C2;
+    color: #FFFFFF;
+    display:inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 100px;
+	font-size:16px;
+	cursor: pointer;
+}
+.redBg{
+	background:#9F0E15;
+}
+.redBg:hover{
+	background:#red;
+	
+}
+.managemen_domain_part1 table .btn{
+	float:left;
+	margin-left:20px;
+}
+.btn:hover{
+	background:#09f;
+}
+.managemen_domain_part2 form{
+	padding-left: 10px;
+	margin-bottom: 10px;
+	float:left;
+}
+#auditTable tbody td{
+	height:36px;
+}
+#auditText{
+	float:left;
+}
+.errorDom{
+	clear:left;
+	color:red;
+	display: block;
+}
+.onError {
+    clear: left;
+    display: block;
+}
+#audit{
+	border:none;
+	float:left;
+	margin-left:20px;
+}
+.refresh{
+	margin:12px 13px 36px 0px;
+	text-align:right;
+}
+.managemen_domain input[type="text"]{
+    border: 1px solid #D7D7D7;
+    color: #555555;
+    font-size: 14px;
+    height: 22px;
+    line-height: 18px;
+    margin-bottom: 4px;
+    padding: 5px 10px 3px 5px;
+    width: 300px;
+    float:left;
+}
+.managemen_domain input[type="button"]{
+	border:none;
+	font-family:"微软雅黑";
+}
+.addNewDomDiv{
+	float: left;
+	width: 100%;
+	border-bottom: solid 1px #cccccc;
+}
+.addNewDomSubDiv1{
+	float: left;
+	width: 150px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 14px;
+	border-top: solid 1px #cccccc;
+	border-left: solid 1px #cccccc;
+	border-right: solid 1px #cccccc;
+	margin: 10px 10px 0px 10px;
+}
+.addNewDomSubDiv2{
+	float: left;
+	width: 150px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 14px;
+	border-top: solid 1px #cccccc;
+	border-left: solid 1px #cccccc;
+	border-right: solid 1px #cccccc;
+	margin: 10px 10px 0px 10px;
+}
+.upload_btn{
+border: none;
+float: left;
+margin-left: 20px;	
+}
+.default_dom_span{
+float: left;
+margin-top: 10px;
+}
+font-size: 14px;
