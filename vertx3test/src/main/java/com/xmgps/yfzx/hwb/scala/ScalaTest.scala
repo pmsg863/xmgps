@@ -7,8 +7,9 @@ import scala.collection.immutable.{HashSet, HashMap}
 
 object ScalaTest {
   class Animal {
-    def printName () {
-    }
+    def printName () {}
+
+    def foo(x:Int,y:Int) = x+y
 
     def apply(x : Int) = x+2
 
@@ -113,6 +114,36 @@ object ScalaTest {
     collTest.printList()
     collTest.printMap()
     collTest.printSet()
+
+    def before(a: Int, b: Int, c: Int, d: Int): Unit = {
+      println(a+b+c+d)
+    }
+    def middle(a: Int)(b: Int, c: Int, d: Int): Unit = {
+      println(a+b+c+d)
+    }
+    def after(a: Int)(b: Int)(c: Int)(d: Int) { println(a+b+c+d)     }
+    println("function value和闭包")
+    var foo =after _
+    //避免第一个参数的重复定义
+    var bar =after(1)_
+    bar(1)(3)(4)
+    //可以使用{}调用
+    bar(2)(3){5}
+
+    //闭包：
+    def loopThrough(number: Int)(closure: Int => Unit) {
+      for (i <- 1 to number) { closure(i) }
+    }
+    var result = 0
+    val addIt = { value:Int => result += value }
+
+
+    loopThrough(10) { addIt }
+    println("Total of values from 1 to 10 is " + result)
+
+    loopThrough(5) { addIt }
+    println("Total of values from 1 to 5 is " + result)
+    //结果是55,75 说明作用域外的赋值影响了result
 
   }
 
